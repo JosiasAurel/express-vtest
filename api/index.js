@@ -1,6 +1,6 @@
 const app = require("express")()
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
 	res.send(`
 		<!DOCTYPE html>
 		<html lang="en">
@@ -39,7 +39,7 @@ app.get("/", (req, res) => {
 	`)
 })
 
-app.get("/:name", (req, res) => {
+app.get("/api/:name", (req, res) => {
 	res.send(`
 		<!DOCTYPE html>
 		<html lang="en">
