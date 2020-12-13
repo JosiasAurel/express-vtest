@@ -1,0 +1,26 @@
+{
+  "name": "express-vtest",
+  "version": "1.0.0",
+  "description": "An app running as a vercel lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiasAurel/express-vtest.git"
+  },
+  "keywords": [
+    "Lambda",
+    "Serverless"
+  ],
+  "author": "Josias Aurel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosiasAurel/express-vtest/issues"
+  },
+  "homepage": "https://github.com/JosiasAurel/express-vtest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
