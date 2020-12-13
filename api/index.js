@@ -39,7 +39,7 @@ app.get("/api", (req, res) => {
 	`)
 })
 
-app.get("/api/:name", (req, res) => {
+app.get("/api/name/:name", (req, res) => {
 	res.send(`
 		<!DOCTYPE html>
 		<html lang="en">
